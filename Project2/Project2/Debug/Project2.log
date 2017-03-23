@@ -1,0 +1,29 @@
+﻿已經開始建置於 2017/3/10 下午 04:26:46。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\user\Desktop\雜項\程式\OpenCv\Project2\Project2\Project2.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(208): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(215): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(239): warning C4101: 'i' : 未參考的區域變數
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(239): warning C4101: 'j' : 未參考的區域變數
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(322): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(358): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(359): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(364): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(365): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(370): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(371): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(405): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\user\desktop\雜項\程式\opencv\project2\project2\source.cpp(421): warning C4018: '<' : signed/unsigned 不相符
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\雜項\程式\OpenCv\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib C:\opencv\build\x86\vc12\lib\opencv_core2413d.lib C:\opencv\build\x86\vc12\lib\opencv_highgui2413d.lib C:\opencv\build\x86\vc12\lib\opencv_features2d2413d.lib C:\opencv\build\x86\vc12\lib\opencv_legacy2413d.lib C:\opencv\build\x86\vc12\lib\opencv_nonfree2413d.lib C:\opencv\build\x86\vc11\lib\opencv_video2413d.lib C:\opencv\build\x86\vc11\lib\opencv_imgproc2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\雜項\程式\OpenCv\Project2\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\雜項\程式\OpenCv\Project2\Debug\Project2.lib" /MACHINE:X86 Debug\Source.obj
+     1>LINK : fatal error LNK1104: 無法開啟檔案 'C:\opencv\build\x86\vc12\lib\opencv_core2413d.lib'
+     1>專案 "C:\Users\user\Desktop\雜項\程式\OpenCv\Project2\Project2\Project2.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:06.21
