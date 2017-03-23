@@ -1,0 +1,17 @@
+﻿已經開始建置於 2017/3/10 下午 05:02:49。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\user\Desktop\雜項\程式\OpenCv\Project1\Project1\Project1.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /IC:\opencv\build\include\opencv /IC:\opencv\build\include\opencv2 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\user\desktop\雜項\程式\opencv\project1\project1\main.cpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\雜項\程式\OpenCv\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12 C:\opencv\build\x86\vc12\lib\opencv_video2413d.lib C:\opencv\build\x86\vc12\lib\opencv_highgui2413d.lib C:\opencv\build\x86\vc12\lib\opencv_core2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\雜項\程式\OpenCv\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\雜項\程式\OpenCv\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : fatal error LNK1104: 無法開啟檔案 'C:\opencv\build\x86\vc12\lib\opencv_video2413d.lib'
+     1>專案 "C:\Users\user\Desktop\雜項\程式\OpenCv\Project1\Project1\Project1.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:02.89
